@@ -1,25 +1,26 @@
 {% load static %}
 <html>
     <head>
-        <link rel="stylesheet" href="{% static 'css/external.css' %}"
+        <link rel="stylesheet" href="{% static 'css/external.css' %}">
         <style>
-            h1{
+            /* h1{
                 color:brown;
                 background-color:coral;
                 text-align: center;
                 border:2pc;
-            }
+            } */
             body{
-                background-color: beige;
+                background-color: rgb(41, 150, 144);
             }
         </style>
     </head>
     <body>
-        <h1 align="center">hi world</h1>
+        <h1 align="center" class="des">Login</h1>
         <form action="" method="">
             Username:<input type="text" name="uname" placeholder="text here"><br><br>
-            Password:<input type="password" name="pwd" placeholder="pasword"><br><br>
+            Password:<input type="password" name="pwd" placeholder="password"><br><br>
             <input type="submit" value="login" >
+             <button>Reset</button>
         </form>
     </body>
 </html>
